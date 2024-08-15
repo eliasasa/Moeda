@@ -14,4 +14,4 @@ for i in range(X):
         #armazenar coroa(roberto)
         cont2+=1
 
-#print do resultado(roberto)
+#print do resultado(roberto )
