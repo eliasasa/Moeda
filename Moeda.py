@@ -1,12 +1,12 @@
 import random
-moeda=['cara', 'coroa']
+cc=['cara', 'coroa']
 
-X=12
+moeda=20
 cont=0
 cont2=0
 
-for i in range(X):
-    y=random.choice(moeda)
+for i in range(moeda):
+    y=random.choice(cc)
     if y == 'cara':
         #armazenar cara(roberto)
         cont+=1
@@ -15,3 +15,4 @@ for i in range(X):
         cont2+=1
 
 #print do resultado(roberto )
+print(cont, cont2)
