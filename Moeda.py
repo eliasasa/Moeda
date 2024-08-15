@@ -1,9 +1,8 @@
 import random
 cc=['cara', 'coroa']
 
-moeda=20
-cont=0
-cont2=0
+cara=0
+coroa=0
 
 def jogamoeda():
   while True:
@@ -23,12 +22,9 @@ print(f"A moeda será jogada {moeda} vezes.")
 for i in range(moeda):
     y=random.choice(cc)
     if y == 'cara':
-        #armazenar cara(roberto)
-        cont+=1
+        cara+=1
     elif y == 'coroa':
-        #armazenar coroa(roberto)
-        cont2+=1
+        coroa+=1
 
-#print do resultado(roberto )
-print(cont, cont2)
 
+print(f'De', moeda, 'jogadas:\nCara', cara,'\nCoroa:', coroa )
